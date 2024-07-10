@@ -7,7 +7,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .navigation {
-
+    margin: 20px 150px;
 }
 .nav_er_pita {
     margin-left: 50px;
@@ -117,6 +117,7 @@
 .sub_text_1 {
     display: block;
     max-width: 477px;
+    margin-top: 30px;
 }
 .sub_text_1 h6 {
     font-size: 20px;
@@ -151,6 +152,7 @@
     font-size: 14px;
     color: #0d1321ab;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .vid_border {
     background-color: #0d132107;
@@ -178,6 +180,7 @@
     text-align: center;
     font-size: 14px;
     color: #0d1321ab;
+    margin-top: 30px;
 }
 .skills {
     margin: 50px 200px;
@@ -193,10 +196,13 @@
 }
 .skill_h {
     font-size: 20px;
+    margin-top: 30px;
 }
 .skill_p {
     font-size: 14px;
     color: #0d1321ab;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .skill_a {
     color: #0D1321;
