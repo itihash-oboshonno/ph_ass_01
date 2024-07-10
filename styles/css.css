@@ -124,6 +124,36 @@
     cursor: pointer;
 }
 
+/* my insp */
+.my_insp {
+
+    margin: 100px 200px 100px 200px;
+}
+.insp_text {
+    text-align: center;
+}
+.insp_text p {
+    font-size: 14px;
+    color: #0d1321ab;
+    margin-bottom: 20px;
+}
+.vid_div {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #0d1321ab;
+    border-width: 1px;
+}
+
+.vid {
+    border-radius: 10px;
+    border-collapse: separate;
+}
+/* target sec */
+
+
+
 
 /* primary or shared */
 .azeret_mono {
