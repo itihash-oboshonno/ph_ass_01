@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .okkhor {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -136,7 +141,7 @@
 
 /* my insp */
 .my_insp {
-
+    padding-top: 50px;
     margin: 100px 200px 100px 200px;
 }
 .insp_text {
@@ -147,18 +152,23 @@
     color: #0d1321ab;
     margin-bottom: 20px;
 }
+.vid_border {
+    background-color: #0d132107;
+    border-radius: 16px;
+}
+
 .vid_div {
     text-align: center;
-    margin-top: 50px;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: #0d1321ab;
-    border-width: 1px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: white;
+    border-color: #0d132107;
+    border-width: 10px;
+    display: block;
 }
 
 .vid {
-    border-radius: 10px;
-    border-collapse: separate;
+    border-radius: 16px;
 }
 /* target sec */
 .target h2 {
@@ -211,13 +221,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 150px;
+    margin: 0px 150px;
     padding: 32px;
 }
 .f_text h2 {
     font-size: 16px;
 }
-
+.footer_niche_kalo {
+    background-color: #0D1321;
+    height: 150px;
+    clear: both;
+}
 
 /* primary or shared */
 .azeret_mono {
