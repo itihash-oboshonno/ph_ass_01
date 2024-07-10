@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    line-height: 1.5;
 }
 
 .okkhor {
@@ -40,7 +41,7 @@
 .logo_h {
     color: #0D1321;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 800;
 }
 .header_bg {
     background-image: url(../assets/Hero-bg.png);
@@ -81,7 +82,7 @@
 
 /* main part */
 .why_web_dev {
-    margin: 100px 200px 100px 200px;
+    margin: 100px 300px;
     background-color: #0d132107;
     padding: 80px 97px;
     border-radius: 16px;
@@ -89,6 +90,7 @@
 }
 .main_tit {
     text-align: center;
+    margin-bottom: 20px;
 }
 .main_desc {
     text-align: center;
@@ -143,7 +145,7 @@
 /* my insp */
 .my_insp {
     padding-top: 50px;
-    margin: 100px 200px 100px 200px;
+    margin: 100px 300px;
 }
 .insp_text {
     text-align: center;
@@ -183,7 +185,7 @@
     margin-top: 30px;
 }
 .skills {
-    margin: 50px 200px;
+    margin: 50px 300px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -219,9 +221,52 @@
     border-radius: 10px;
     padding: 40px;
 }
+/* support */
+.support {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    margin: 100px 300px;
+    padding: 64px 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+.support h2 {
+    color: white;
+    text-align: center;
+}
+.support p {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.input_form {
+    text-align: center;
+    
+}
+.butt_s {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D1321;
+    font-family: 'Azeret Mono', monospace;
+    border-width: 0px;
+    cursor: pointer;
+}
+#feed_back {
+    width: 548px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family:'Azeret Mono', monospace;
+}
+
 
 .footer {
     background-color: #0d132107;
+    margin-top: 150px;
 }
 .footer_content {
     display: flex;
