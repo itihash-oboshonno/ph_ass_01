@@ -71,7 +71,60 @@
     font-weight: 600;
     font-family: 'Azeret Mono', monospace;
     margin-top: 32px;
+    cursor: pointer;
 }
+
+/* main part */
+.why_web_dev {
+    margin: 100px 200px 100px 200px;
+    background-color: #0d132107;
+    padding: 80px 97px;
+    border-radius: 16px;
+    border-width: 0px;
+}
+.main_tit {
+    text-align: center;
+}
+.main_desc {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub_m_1 {
+    display: flex;
+    border-radius: 16px;
+    justify-content: space-around;
+    padding: 48px;
+    color: #0d1321ab;
+    background-image: linear-gradient(to right, white, #0d132107);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sub_text_1 {
+    display: block;
+    max-width: 477px;
+}
+.sub_text_1 h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sub_text_1 p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.butt_m0 {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    color: #0d1321ab;
+    background-color: white;
+    border-width: 1px;
+    border-color: #0d1321ab;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
 /* primary or shared */
 .azeret_mono {
   font-family: "Azeret Mono", monospace;
