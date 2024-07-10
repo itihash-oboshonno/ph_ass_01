@@ -156,23 +156,23 @@
     margin-bottom: 20px;
     margin-top: 30px;
 }
-.vid_border {
-    background-color: #0d132107;
-    border-radius: 16px;
-}
-
 .vid_div {
     text-align: center;
     padding: 20px;
     border-radius: 16px;
     background-color: white;
-    border-color: #0d132107;
-    border-width: 10px;
+    border-color: #0d1321ab;
+    border-width: 2px;
     display: block;
 }
 
 .vid {
+    text-align: center;
+    padding: 40px;
     border-radius: 16px;
+    border-width: 2px;
+    border-color:#0d132149;
+    overflow: hidden;
 }
 /* target sec */
 .target h2 {
